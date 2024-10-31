@@ -33,3 +33,6 @@ def score():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+# run app with gunicorn
+# pipenv run gunicorn --bind 0.0.0.0:8000 q4:app
